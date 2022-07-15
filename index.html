@@ -4,21 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <br>
-    <hr>
-    <nav>
-        <h3>Recipe List</h3>
-        <hr>
-        <br>
-        <li><a href="./recipes/jollof-rice.html">Jollof-Rice Recipe</a></li>
-        <br>
-        <li><a href="./recipes/chicken-soup.html">Chicken-Soup Recipe</a></li>
-        <br>
-        <li><a href="/recipes/hot-honey-wings.html">Hot-Honey-Wings Recipe</a></li>
+    <nav class="nav-container">
+        <div class="nav-logo-item">
+            <img src="noodle.gif" alt="animated noodles in bowl">
+            <p>Odin Recipes</p>
+        </div>
+        <div class="nav-link-item">
+            <a href="./recipes/jollof-rice.html">Jollof-Rice</a>
+            <a href="./recipes/chicken-soup.html">Chicken-Soup</a>
+            <a href="/recipes/hot-honey-wings.html">Honey-Wings</a>
+        </div>
     </nav>
+    <div class="welcome-heading">
+        <h1>Welcome to <span>Odin Recipes</span></h1>
+    </div>
+    <div class="welcome-message">
+        <h3>Select any of our recipes below or above.</h3>
+    </div>
+
+    <div class="body-cards-container">
+        <a class="body-item" id="card-1" href="./recipes/jollof-rice.html" >
+            <img src="./jollof-rice.jpg" alt="jollof-rice">
+            <div class="caption">
+                <h6>Jollof-Rice Recipe</h6>
+                <p>Experience delicious West-African flavours. Jollof-Rice is probably the most famous West African dish. Its long-grain rice spiced up with tomatoes, onions, bell pepper, garlic, and thyme.
+                </p>
+            </div>
+        </a>
+        <a class="body-item" id="card-2" href="./recipes/chicken-soup.html">
+            <img src="chicken-soup.jpg" alt="chicken-soup">
+            <div class="caption">
+                <h6>Chicken-Soup Recipe</h6>
+                <p>The perfect meal for soothing your taste palate. You can enjoy this meal any time and any place. The best part is that this chicken soup recipe allows for endless tweaking.</p>
+            </div>
+        </a>
+        <a class="body-item" id="card-3" href="./recipes/hot-honey-wings.html">
+            <img src="hot-honey-wings.jpg" alt="hot-honey-wings">
+            <div class="caption">
+                <h6>Hot-Honey-Wings Recipe</h6>
+                <p>Spicy, sweet and crunchy Caribbean delights. Crispy baked chicken wings offer the crunch of fried chicken without deep frying. You can also make these wings crisp in your air fryer too!</p>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
