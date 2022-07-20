@@ -91,6 +91,7 @@
 
 .body-item:hover{
     box-shadow: 7px 7px 20px 3px rgb(249, 227, 224);
+    transform: translate(0rem, -1rem);
 }
 
 .body-item img{
